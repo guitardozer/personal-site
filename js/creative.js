@@ -46,5 +46,11 @@
     new WOW().init();
 	
 	$("[rel=tooltip]").tooltip();
+	
+	//Stop Video
+	$('#henchling').on('hidden.bs.modal', function (e) {
+	  // do something...
+	  $('#henchling iframe').attr("src", $("#henchling  iframe").attr("src"));
+	});
 
 })(jQuery); // End of use strict
