@@ -507,3 +507,7 @@ footer {
 .right-side{
 	text-align: right;
 }
+
+.label {
+    border-radius: 300px;
+}
