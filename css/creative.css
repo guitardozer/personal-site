@@ -511,3 +511,7 @@ footer {
 .label {
     border-radius: 300px;
 }
+
+div.modal-body p {
+	text-align: justify;
+}
